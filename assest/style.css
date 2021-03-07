@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300&family=Signika&display=swap');
+body{
+	z-index: -1;
+	height: 100%;
+	background-image: linear-gradient(rgba(24,14,66,0.8),rgba(24,14,66,0.8)),url('./images/team.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Public Sans', sans-serif;
+	letter-spacing: 0.5px;
+}
+#main{
+	max-width: 700px;
+	margin:5% auto;	
+	color: #f1f1f1;	
+}
+
+#survey-form{
+	background-color: #202046;
+	opacity: 0.9;
+	padding: 4% 7%;
+}
+#survey-form input:not(input[type="checkbox"],input[type="radio"])
+,#survey-form textarea,select{
+	width: 100%;
+	display: inline-block;
+	padding:8px 8px;
+	font-size: 15px;
+	color: #333;
+	border: 1px solid #ccc;
+  	border-radius: 4px;
+  	box-sizing: border-box;
+}
+#survey-form input,#survey-form select,#survey-form textarea{border-radius: 5px;}
+#survey-form #submit{
+	color: #f1f1f1;
+	border:none;
+	font-size: 18px;
+	background-color: #4CAF50;
+	margin: 2% auto;
+	cursor: pointer;
+}
+#survey-form input[type="checkbox"],#survey-form input[type="radio"]{
+	margin:0.5em 0.8em;
+}
+#survey-form label span{font-size: 0.8em!important}
+#survey-form #submit:hover{
+	background-color: #45a049;
+	box-shadow: -1px -1px 5px 3px #ebebef;
+}
+/*General Classes*/
+.text-place{
+	text-align: center;
+}
+.dBlock{
+ 	display: block;
+    margin-top: 4.5%;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+::placeholder{
+	font-size: 15px;
+	font-family: 'Public Sans', sans-serif;
+}
